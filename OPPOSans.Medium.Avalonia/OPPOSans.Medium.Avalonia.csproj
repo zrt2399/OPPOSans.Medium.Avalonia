@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<DebugType>embedded</DebugType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Title>OPPOSans Medium font for Avalonia</Title>
+		<Authors>Yoyo</Authors>
+		<Copyright>Copyright © $(Authors) $([System.DateTime]::Today.ToString(yyyy))</Copyright>
+		<PackageIcon>logo.png</PackageIcon>
+		<PackageTags>Avalonia;XAML;UI;Font</PackageTags>
+		<Description>OPPOSans Medium font for Avalonia applications</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/zrt2399/OPPOSans.Medium.Avalonia</RepositoryUrl>
+		<PackageProjectUrl>$(RepositoryUrl)</PackageProjectUrl>
+
+		<Version>1.0.1.0</Version>
+		<FileVersion>$(Version)</FileVersion>
+		<AssemblyVersion>$(Version)</AssemblyVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Avalonia" Version="11.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<AvaloniaResource Include="Assets\**" />
+		<None Include="logo.png">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<NoWarn>1591</NoWarn>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+</Project>
