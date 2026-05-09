@@ -15,7 +15,7 @@
 		<RepositoryUrl>https://github.com/zrt2399/OPPOSans.Medium.Avalonia</RepositoryUrl>
 		<PackageProjectUrl>$(RepositoryUrl)</PackageProjectUrl>
 
-		<Version>1.0.1.0</Version>
+		<Version>1.0.2.0</Version>
 		<FileVersion>$(Version)</FileVersion>
 		<AssemblyVersion>$(Version)</AssemblyVersion>
 	</PropertyGroup>

@@ -14,7 +14,7 @@ namespace OPPOSans.Medium.Avalonia
         {
             return appBuilder.With(new FontManagerOptions()
             {
-                DefaultFamilyName = "avares://OPPOSans.Medium.Avalonia/Assets/Fonts/OPPOSans-Medium.ttf#OPPOSans Medium"
+                DefaultFamilyName = "avares://OPPOSans.Medium.Avalonia/Assets/Fonts/OPPOSans-M.ttf#OPPOSans M"
             });
 
             //return appBuilder.With(new FontManagerOptions
