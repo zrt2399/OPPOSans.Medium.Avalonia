@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/license-MIT-8CBA04) [![NuGet](https://img.shields.io/nuget/v/OPPOSans.Medium.Avalonia)](https://www.nuget.org/packages/OPPOSans.Medium.Avalonia)
+
 # OPPOSans Font for Avalonia
 The OPPOSans Font released in 2019
 
